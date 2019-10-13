@@ -16,7 +16,7 @@ var questions = [
   },
   {
     title: "String values must be enclosed within ____ when being assigned to variables.",
-    choices: ["numbers and strings", "other arrays", "booleans", "all of the above"],
-    answer: "all of the above"
+    choices: ["commas", "curly brackets", "quotes", "parentheses"],
+    answer: "quotes"
   },
 ];
