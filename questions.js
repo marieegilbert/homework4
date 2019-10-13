@@ -1,3 +1,13 @@
+var timeE1 = document.querySelector(".time");
+
+var secondsLeft = 75;
+
+function setTime() {
+    var timerInterval = setInterval(function() {
+        secondsLeft--;
+    }, 1000);
+}
+
 var questions = [
   {
     title: "Commonly used data types DO NOT include:",
