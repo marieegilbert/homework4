@@ -1,4 +1,8 @@
-var timeE1 = document.querySelector(".time");
+var startQuiz = document.getElementById("#start");
+
+startQuiz.addEventListener("click", function () {
+  event.preventDefault();
+}
 
 var secondsLeft = 75;
 
